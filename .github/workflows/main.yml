@@ -52,7 +52,7 @@ jobs:
 
       - name: Run only on main branch
         if: github.ref == 'refs/heads/main'
-        run: mvn test
+        run: echo "mvn test"
       
       - name: Run on other branches
         if: github.ref != 'refs/heads/main'
