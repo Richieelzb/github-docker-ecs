@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 env: 
-  ECR_REPOSITORY: 'lzb-ecr-repo'
+  ECR_REPOSITORY: lzb-project-repo
 
 jobs:
   Build:
